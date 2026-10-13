@@ -1,0 +1,1349 @@
+﻿<!doctype html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Janhavi Admane | Full Stack Developer & AI/ML Specialist</title>
+  <meta name="description"
+    content="Official Portfolio of Janhavi Admane - Full Stack Developer & AI/ML Specialist at Symbiosis Institute of Technology, Nagpur. Patent Holder in IoT & Automation." />
+  <meta name="keywords"
+    content="Janhavi Admane, Portfolio, Full Stack Developer, AI, ML, Graph Neural Networks, IoT Patent, Python, React, Symbiosis Institute of Technology Nagpur" />
+  <meta name="author" content="Janhavi Admane" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- NAVIGATION BAR -->
+  <header class="navbar-header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" id="navLogo">
+        <div class="logo-icon"><i class="fas fa-code"></i></div>
+        <span>My<span class="logo-accent">Portfolio</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#patent" class="nav-link">Patent</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark mode"
+          title="Toggle Dark/Light Mode">
+          <i class="fas fa-moon moon-icon"></i>
+          <i class="fas fa-sun sun-icon"></i>
+        </button>
+
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / BANNER SECTION -->
+    <section class="hero-section" id="hero">
+      <!-- Interactive Animated Particle Canvas -->
+      <canvas id="heroCanvas" class="hero-canvas"></canvas>
+
+      <!-- Floating Animated Background Elements -->
+      <div class="hero-particles">
+        <div class="particle p1"></div>
+        <div class="particle p2"></div>
+        <div class="particle p3"></div>
+        <div class="particle p4"></div>
+        <div class="floating-badge fb1"><i class="fab fa-python"></i> Python</div>
+        <div class="floating-badge fb2"><i class="fas fa-brain"></i> AI &amp; ML</div>
+        <div class="floating-badge fb3"><i class="fab fa-react"></i> React</div>
+        <div class="floating-badge fb4"><i class="fas fa-microchip"></i> IoT Patent</div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge-pill">
+          <span class="pulse-dot"></span> Available for Internships &amp; Software Development Roles
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Janhavi Admane</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          <span class="hero-typing-prefix">Specializing in </span><span class="typing-text" id="typingText">Full Stack
+            Development</span><span class="typing-cursor">|</span>
+        </p>
+
+        <p class="hero-description">
+          Motivated Computer Science Engineer &amp; IoT Patent Holder building intelligent cloud frameworks, Graph
+          Neural Networks, and modern web applications.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-white-pill">
+            <span>Explore My Work</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline-pill">
+            <span>Get In Touch</span>
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+
+        <div class="hero-social-bar">
+          <a href="https://github.com/Janhaviadmane07" target="_blank" rel="noopener" aria-label="GitHub Profile"
+            class="social-pill-link" title="GitHub">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://linkedin.com/in/janhavi-admane-85897a320" target="_blank" rel="noopener"
+            aria-label="LinkedIn Profile" class="social-pill-link" title="LinkedIn">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="mailto:1851.janhavi@gmail.com" class="social-pill-link" aria-label="Email Me" title="Email">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+          <a href="tel:+919529645750" class="social-pill-link" aria-label="Call Me" title="Phone">
+            <i class="fas fa-phone"></i> Call
+          </a>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to About section">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">About Me</h2>
+          <div class="title-underline"></div>
+          <p class="section-subheading">Who Am I?</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-column">
+            <h3 class="about-headline">Solving Real-World Problems Through AI &amp; Software Engineering</h3>
+
+            <p class="about-p">
+              I am a Computer Science Engineering student at <strong>Symbiosis Institute of Technology, Nagpur</strong>
+              specializing in <strong>Artificial Intelligence and Machine Learning</strong>. I possess strong
+              programming and analytical problem-solving skills focused on contributing to real-world software
+              engineering.
+            </p>
+
+            <p class="about-p">
+              I am also a <strong>Patent Holder</strong> for my IoT innovation titled <em>"System and Method for
+                Automated Water Tank Level Monitoring and Pump Control using IoT"</em>. My research interests extend
+              across Graph Neural Networks (GNN), ML-driven cloud auto-scaling frameworks, and modern full-stack web
+              architectures.
+            </p>
+
+            <p class="about-p">
+              I hold multiple professional certifications from <strong>Red Hat Academy</strong> and <strong>Infosys
+                Springboard</strong> in Agentic AI, System Administration, Network Automation, and Data Structures.
+            </p>
+
+            <div class="about-info-cards">
+              <div class="info-card">
+                <i class="fas fa-graduation-cap info-icon"></i>
+                <div>
+                  <strong>Education &amp; Grades</strong>
+                  <span>B.Tech CSE (CGPA: 8.19 | GPA: 8.50)</span>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <i class="fas fa-award info-icon"></i>
+                <div>
+                  <strong>Patent Granted</strong>
+                  <span>IoT Tank Automation Patent</span>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <i class="fas fa-map-marker-alt info-icon"></i>
+                <div>
+                  <strong>Location</strong>
+                  <span>Nagpur, Maharashtra, India</span>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <i class="fas fa-briefcase info-icon"></i>
+                <div>
+                  <strong>Status</strong>
+                  <span class="text-success">Available for Internships &amp; Roles</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta">
+              <a href="/Janhavi_Admane_Resume.pdf" download="Janhavi_Admane_Resume.pdf" class="btn btn-gradient"
+                id="downloadResumeBtn">
+                <i class="fas fa-file-download"></i> Download Resume PDF
+              </a>
+              <a href="#contact" class="btn btn-secondary-outline">
+                <i class="fas fa-paper-plane"></i> Contact Me
+              </a>
+            </div>
+
+            <!-- Inline Resume Viewer -->
+            <div class="resume-preview-wrapper">
+              <div class="resume-preview-header">
+                <i class="fas fa-file-pdf resume-pdf-icon"></i>
+                <span>Resume Preview</span>
+                <a href="/Janhavi_Admane_Resume.pdf" target="_blank" rel="noopener" class="resume-open-link">
+                  <i class="fas fa-external-link-alt"></i> Open Full
+                </a>
+              </div>
+              <iframe src="/Janhavi_Admane_Resume.pdf#view=FitH" class="resume-iframe" title="Janhavi Admane Resume"
+                loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <div class="about-image-column">
+            <div class="avatar-card-wrapper">
+              <div class="avatar-glow-ring"></div>
+              <div class="avatar-image-box">
+                <img src="/profile_avatar.jpg" alt="Janhavi Admane - Computer Science Engineer" class="profile-img"
+                  id="profileImage" />
+              </div>
+
+              <div class="avatar-status-badge">
+                <span class="green-dot"></span> <span>Open for Opportunities</span>
+              </div>
+
+              <!-- Floating Tech Badges -->
+              <div class="tech-chip tc-react"><i class="fab fa-python"></i> Python</div>
+              <div class="tech-chip tc-python"><i class="fas fa-brain"></i> AI &amp; GNN</div>
+              <div class="tech-chip tc-node"><i class="fas fa-certificate"></i> Red Hat Cert</div>
+              <div class="tech-chip tc-mongo"><i class="fas fa-lightbulb"></i> Patentee</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="title-underline"></div>
+          <p class="section-subheading">Core programming expertise &amp; technical specialization</p>
+        </div>
+
+        <div class="skills-filter-tabs">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="frontend">Languages &amp; Web</button>
+          <button class="filter-btn" data-filter="backend">AI &amp; Databases</button>
+          <button class="filter-btn" data-filter="tools">Tools &amp; Automation</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Skill 1: Programming Languages -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-code"></i></div>
+              <div class="skill-meta">
+                <h3 class="skill-name">Programming Languages</h3>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Core programming &amp; Object-Oriented Software Engineering using Python, Java, C, and JavaScript for
+              desktop, web, and algorithmic tasks.
+            </p>
+
+            <div class="skill-tags">
+              <span class="tag-pill">Python</span>
+              <span class="tag-pill">Java</span>
+              <span class="tag-pill">C</span>
+              <span class="tag-pill">JavaScript</span>
+            </div>
+          </div>
+
+          <!-- Skill 2: AI & Machine Learning -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-brain"></i></div>
+              <div class="skill-meta">
+                <h3 class="skill-name">AI &amp; Machine Learning</h3>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Specialization in Artificial Intelligence, Graph Neural Networks (GNN), Agentic AI architectures, and
+              predictive analytics models.
+            </p>
+
+            <div class="skill-tags">
+              <span class="tag-pill">Machine Learning</span>
+              <span class="tag-pill">Graph Neural Networks</span>
+              <span class="tag-pill">Agentic AI</span>
+              <span class="tag-pill">Predictive Modeling</span>
+            </div>
+          </div>
+
+          <!-- Skill 3: Web Development -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-laptop-code"></i></div>
+              <div class="skill-meta">
+                <h3 class="skill-name">Web Development</h3>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Building responsive front-end user interfaces using HTML5, CSS3, JavaScript, React components, and modern
+              web layout standards.
+            </p>
+
+            <div class="skill-tags">
+              <span class="tag-pill">HTML5</span>
+              <span class="tag-pill">CSS3</span>
+              <span class="tag-pill">JavaScript</span>
+              <span class="tag-pill">React</span>
+            </div>
+          </div>
+
+          <!-- Skill 4: Database & SQL -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-database"></i></div>
+              <div class="skill-meta">
+                <h3 class="skill-name">Database Management</h3>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Relational database design, SQL querying, schema optimization, and data storage integration using MySQL.
+            </p>
+
+            <div class="skill-tags">
+              <span class="tag-pill">MySQL</span>
+              <span class="tag-pill">Relational DB</span>
+              <span class="tag-pill">SQL Queries</span>
+            </div>
+          </div>
+
+          <!-- Skill 5: System Admin & Automation -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-terminal"></i></div>
+              <div class="skill-meta">
+                <h3 class="skill-name">SysAdmin &amp; Automation</h3>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Red Hat System Administration (RH124), network automation with Red Hat Ansible Automation Platform,
+              Git/GitHub, and VS Code.
+            </p>
+
+            <div class="skill-tags">
+              <span class="tag-pill">Red Hat Linux</span>
+              <span class="tag-pill">Ansible Automation</span>
+              <span class="tag-pill">Git/GitHub</span>
+              <span class="tag-pill">Jira</span>
+            </div>
+          </div>
+
+          <!-- Skill 6: IoT & Hardware Systems -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-microchip"></i></div>
+              <div class="skill-meta">
+                <h3 class="skill-name">IoT &amp; Embedded Systems</h3>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Internet of Things (IoT) architecture, ultrasonic sensor integration, microcontroller programming, and
+              smart water management systems.
+            </p>
+
+            <div class="skill-tags">
+              <span class="tag-pill">IoT Sensors</span>
+              <span class="tag-pill">Microcontrollers</span>
+              <span class="tag-pill">Embedded C</span>
+              <span class="tag-pill">Smart Systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">My Projects &amp; Patents</h2>
+          <div class="title-underline"></div>
+          <p class="section-subheading">Patented IoT systems, Graph Neural Networks, and ML Cloud Architectures</p>
+        </div>
+
+        <div class="projects-filter-tabs">
+          <button class="project-tab-btn active" data-ptab="all">All Projects</button>
+          <button class="project-tab-btn" data-ptab="ai">AI &amp; Cyber Defense</button>
+          <button class="project-tab-btn" data-ptab="fullstack">Full-Stack &amp; Web</button>
+          <button class="project-tab-btn" data-ptab="iot">IoT &amp; Patents</button>
+          <button class="project-tab-btn" data-ptab="cloud">Cloud &amp; ML</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Project 1: Multi-Agent Phishing Email Detector -->
+          <div class="project-card" data-pcat="ai">
+            <div class="project-content">
+              <div class="project-header-top">
+                <span class="cert-tag"
+                  style="background: rgba(239, 68, 68, 0.15); color: #ef4444; font-weight: 700; padding: 5px 12px; border-radius: 20px; font-size: 0.78rem;">
+                  <i class="fas fa-shield-alt"></i> AGENTIC AI &amp; CYBER DEFENSE
+                </span>
+                <div class="project-icon-badge"><i class="fas fa-shield-alt"></i></div>
+              </div>
+
+              <h3 class="project-title">Autonomous Multi-Agent AI Phishing Email Detection System</h3>
+              <p class="project-desc">
+                Multi-agent cyber defense pipeline combining 3 specialized LLM agents (Content, Link, Domain) with
+                VirusTotal v3, URLhaus, WHOIS domain age analysis, SQLite memory, and a variance-based confidence
+                engine.
+              </p>
+
+              <div class="tech-pill-group">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">OpenAI GPT-4o-mini</span>
+                <span class="tech-pill">Multi-Agent Systems</span>
+                <span class="tech-pill">VirusTotal API</span>
+                <span class="tech-pill">URLhaus</span>
+                <span class="tech-pill">Levenshtein Distance</span>
+                <span class="tech-pill">SQLite</span>
+                <span class="tech-pill">Gradio</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-link-btn demo-btn" data-project="phishing">
+                  <span>View Architecture</span> <i class="fas fa-external-link-alt"></i>
+                </button>
+                <a href="https://github.com/Janhaviadmane07/email-phishing-detector" target="_blank" rel="noopener"
+                  class="github-icon-link" aria-label="GitHub Repo" title="View Source Code on GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Smart ICU Vital Monitoring System -->
+          <div class="project-card" data-pcat="fullstack">
+            <div class="project-content">
+              <div class="project-header-top">
+                <span class="cert-tag"
+                  style="background: rgba(16, 185, 129, 0.15); color: #10b981; font-weight: 700; padding: 5px 12px; border-radius: 20px; font-size: 0.78rem;">
+                  <i class="fas fa-heartbeat"></i> MERN FULL-STACK HEALTHCARE
+                </span>
+                <div class="project-icon-badge"><i class="fas fa-heartbeat"></i></div>
+              </div>
+
+              <h3 class="project-title">Smart ICU Vital Monitoring System</h3>
+              <p class="project-desc">
+                Clinical patient monitoring platform implementing 9 core modules including Doctor/Nurse Dashboards,
+                real-time vital threshold checking, anomaly alerts, digital ICU charts, and scheduled cron reminders.
+              </p>
+
+              <div class="tech-pill-group">
+                <span class="tech-pill">React (Vite)</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">Express</span>
+                <span class="tech-pill">MongoDB</span>
+                <span class="tech-pill">Tailwind CSS</span>
+                <span class="tech-pill">Recharts</span>
+                <span class="tech-pill">JWT Auth</span>
+                <span class="tech-pill">Node-cron</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-link-btn demo-btn" data-project="vital">
+                  <span>System Details</span> <i class="fas fa-external-link-alt"></i>
+                </button>
+                <a href="https://github.com/AtharvaSuryas/vital-monitoring" target="_blank" rel="noopener"
+                  class="github-icon-link" aria-label="GitHub Repo" title="View Source Code on GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: NewGen Digital Banking Platform -->
+          <div class="project-card" data-pcat="fullstack">
+            <div class="project-content">
+              <div class="project-header-top">
+                <span class="cert-tag"
+                  style="background: rgba(59, 130, 246, 0.15); color: #3b82f6; font-weight: 700; padding: 5px 12px; border-radius: 20px; font-size: 0.78rem;">
+                  <i class="fas fa-wallet"></i> FULL-STACK FINTECH
+                </span>
+                <div class="project-icon-badge"><i class="fas fa-university"></i></div>
+              </div>
+
+              <h3 class="project-title">NewGen Digital Banking Platform</h3>
+              <p class="project-desc">
+                Modern digital banking web application with encrypted authentication, dynamic account ledger, real-time
+                fund transfers, transaction history tracking, and interactive financial dashboard analytics.
+              </p>
+
+              <div class="tech-pill-group">
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">REST APIs</span>
+                <span class="tech-pill">Financial Ledger</span>
+                <span class="tech-pill">User Auth</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-link-btn demo-btn" data-project="bank">
+                  <span>View Banking App</span> <i class="fas fa-external-link-alt"></i>
+                </button>
+                <a href="https://github.com/Janhaviadmane07/new-gen-bank" target="_blank" rel="noopener"
+                  class="github-icon-link" aria-label="GitHub Repo" title="View Source Code on GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Faculty Office Hour Booking -->
+          <div class="project-card" data-pcat="fullstack">
+            <div class="project-content">
+              <div class="project-header-top">
+                <span class="cert-tag"
+                  style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; font-weight: 700; padding: 5px 12px; border-radius: 20px; font-size: 0.78rem;">
+                  <i class="fas fa-calendar-check"></i> ACADEMIC SCHEDULING
+                </span>
+                <div class="project-icon-badge"><i class="fas fa-calendar-check"></i></div>
+              </div>
+
+              <h3 class="project-title">Faculty Office Hour Appointment Booking System</h3>
+              <p class="project-desc">
+                Automated appointment scheduling system allowing university students to reserve faculty office hours,
+                eliminating calendar collisions with dynamic slot allocation and real-time confirmations.
+              </p>
+
+              <div class="tech-pill-group">
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">HTML5/CSS3</span>
+                <span class="tech-pill">Slot Scheduling</span>
+                <span class="tech-pill">RESTful APIs</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-link-btn demo-btn" data-project="officehours">
+                  <span>Booking Details</span> <i class="fas fa-external-link-alt"></i>
+                </button>
+                <a href="https://github.com/Janhaviadmane07/faculty-office-hour-booking" target="_blank" rel="noopener"
+                  class="github-icon-link" aria-label="GitHub Repo" title="View Source Code on GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: IoT Water Tank Patent -->
+          <div class="project-card" data-pcat="iot">
+            <div class="project-content">
+              <div class="project-header-top">
+                <span class="cert-tag"
+                  style="background: rgba(16, 185, 129, 0.15); color: #10b981; font-weight: 700; padding: 5px 12px; border-radius: 20px; font-size: 0.78rem;">
+                  <i class="fas fa-award"></i> PATENT PUBLISHED (App No: 202521126628 A)
+                </span>
+                <div class="project-icon-badge"><i class="fas fa-certificate"></i></div>
+              </div>
+
+              <h3 class="project-title">System &amp; Method for Automated Water Tank Level Monitoring (IoT)</h3>
+              <p class="project-desc">
+                Officially published Indian Patent for an automated IoT liquid monitoring system using contactless
+                ultrasonic sensors and microcontroller-based relay switching to prevent mechanical wear and optimize
+                pump life.
+              </p>
+
+              <div class="tech-pill-group">
+                <span class="tech-pill">IoT</span>
+                <span class="tech-pill">Ultrasonic Sensors</span>
+                <span class="tech-pill">Embedded C</span>
+                <span class="tech-pill">Relay Automation</span>
+                <span class="tech-pill">Indian Patent Office</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-link-btn demo-btn" data-project="watertank">
+                  <span>Patent Details</span> <i class="fas fa-external-link-alt"></i>
+                </button>
+                <a href="/patent/patent_publication_202521126628.pdf" target="_blank" rel="noopener"
+                  class="github-icon-link" aria-label="Official Patent PDF" title="Open Official Patent PDF">
+                  <i class="fas fa-file-pdf"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: Link Prediction GNN -->
+          <div class="project-card" data-pcat="ai">
+            <div class="project-content">
+              <div class="project-header-top">
+                <span class="cert-tag"
+                  style="background: rgba(102, 126, 234, 0.15); color: #667eea; font-weight: 700; padding: 5px 12px; border-radius: 20px; font-size: 0.78rem;">
+                  <i class="fas fa-brain"></i> AI &amp; MACHINE LEARNING
+                </span>
+                <div class="project-icon-badge"><i class="fas fa-project-diagram"></i></div>
+              </div>
+
+              <h3 class="project-title">Link Prediction Using Graph Neural Network (GNN)</h3>
+              <p class="project-desc">
+                Analyzes relationships between nodes in a graph network to learn structural patterns, identifying hidden
+                or missing links and predicting future connections using graph machine learning.
+              </p>
+
+              <div class="tech-pill-group">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Graph Neural Networks</span>
+                <span class="tech-pill">Deep Learning</span>
+                <span class="tech-pill">PyTorch Geometric</span>
+                <span class="tech-pill">NetworkX</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-link-btn demo-btn" data-project="gnn">
+                  <span>View Model</span> <i class="fas fa-external-link-alt"></i>
+                </button>
+                <a href="https://github.com/Janhaviadmane07" target="_blank" rel="noopener" class="github-icon-link"
+                  aria-label="GitHub Repo" title="View Source Code">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7: ML Cloud Auto Scaling -->
+          <div class="project-card" data-pcat="cloud">
+            <div class="project-content">
+              <div class="project-header-top">
+                <span class="cert-tag"
+                  style="background: rgba(118, 75, 162, 0.15); color: #a855f7; font-weight: 700; padding: 5px 12px; border-radius: 20px; font-size: 0.78rem;">
+                  <i class="fas fa-cloud"></i> CLOUD &amp; OPTIMIZATION
+                </span>
+                <div class="project-icon-badge"><i class="fas fa-cloud"></i></div>
+              </div>
+
+              <h3 class="project-title">ML-Driven Cost Optimization &amp; Auto-Scaling Framework</h3>
+              <p class="project-desc">
+                An intelligent cloud management framework utilizing machine learning algorithms to predict resource
+                utilization patterns and support automated, cost-effective scaling decisions.
+              </p>
+
+              <div class="tech-pill-group">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Machine Learning</span>
+                <span class="tech-pill">Cloud Auto-Scaling</span>
+                <span class="tech-pill">Predictive Analytics</span>
+                <span class="tech-pill">Ansible</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-link-btn demo-btn" data-project="cloudml">
+                  <span>View System</span> <i class="fas fa-external-link-alt"></i>
+                </button>
+                <a href="https://github.com/Janhaviadmane07" target="_blank" rel="noopener" class="github-icon-link"
+                  aria-label="GitHub Repo" title="View Source Code">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PATENT SECTION -->
+    <section class="section patent-section" id="patent">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="patent-official-pill">
+            <span class="pulse-dot"></span> Official Patent Office Journal Publication
+          </div>
+          <h2 class="section-title">Patented Innovation</h2>
+          <div class="title-underline"></div>
+          <p class="section-subheading">Government of India Patent Office Publication &bull; Application No:
+            202521126628 A</p>
+        </div>
+
+        <div class="patent-showcase-card">
+          <div class="patent-grid-layout">
+            <!-- Left Column: Interactive Gazette Preview -->
+            <div class="patent-preview-col">
+              <div class="patent-doc-card cert-thumbnail-wrapper" data-cert="patent_pub" style="cursor: pointer;"
+                title="Click to expand Patent Gazette">
+                <div class="patent-badge-top">
+                  <i class="fas fa-stamp"></i> Patent Gazette Copy
+                </div>
+                <img src="/patent/patent_page_2.png"
+                  alt="Official Patent Publication Document - Application 202521126628 A" class="patent-preview-img" />
+                <div class="cert-thumbnail-overlay">
+                  <span class="cert-overlay-btn"><i class="fas fa-search-plus"></i> View Gazette Document</span>
+                </div>
+              </div>
+
+              <div class="patent-preview-actions">
+                <button class="btn btn-cert-view btn-patent-view" data-cert="patent_pub">
+                  <i class="fas fa-eye"></i> View Publication Preview
+                </button>
+                <a href="/patent/patent_publication_202521126628.pdf" target="_blank" rel="noopener"
+                  class="btn btn-cert-pdf" title="Download Official PDF">
+                  <i class="fas fa-file-pdf"></i> Download Official PDF
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Column: Detailed Patent Information -->
+            <div class="patent-info-col">
+              <div class="patent-header-meta">
+                <span class="patent-country-badge"><i class="fas fa-shield-alt"></i> India Patent Office</span>
+                <span class="patent-journal-badge"><i class="far fa-calendar-check"></i> Journal Issue 01/2026</span>
+              </div>
+
+              <h3 class="patent-main-title">
+                System and Method for Automated Water Tank Level Monitoring and Pump Control Using IoT
+              </h3>
+
+              <div class="patent-quick-stats">
+                <div class="patent-stat-item">
+                  <span class="stat-meta-label">Application Number</span>
+                  <span class="stat-meta-value highlight-num">202521126628 A</span>
+                </div>
+                <div class="patent-stat-item">
+                  <span class="stat-meta-label">Publication Date</span>
+                  <span class="stat-meta-value">02/01/2026</span>
+                </div>
+                <div class="patent-stat-item">
+                  <span class="stat-meta-label">Filing Date</span>
+                  <span class="stat-meta-value">13/12/2025</span>
+                </div>
+                <div class="patent-stat-item">
+                  <span class="stat-meta-label">International Class</span>
+                  <span class="stat-meta-value">G01F 23/296, G05D 9/12</span>
+                </div>
+              </div>
+
+              <div class="patent-detail-block">
+                <h4 class="patent-block-title"><i class="fas fa-university"></i> Applicant</h4>
+                <p class="patent-block-text"><strong>Symbiosis International (Deemed University)</strong> &bull; Pune,
+                  Maharashtra, India</p>
+              </div>
+
+              <div class="patent-detail-block">
+                <h4 class="patent-block-title"><i class="fas fa-users-cog"></i> Names of Inventors</h4>
+                <div class="inventors-chip-list">
+                  <span class="inventor-chip">Dr. Deepak Suresh Asudani</span>
+                  <span class="inventor-chip">Soumya Bajirao</span>
+                  <span class="inventor-chip self-inventor"><i class="fas fa-award"></i> Janhavi Admane
+                    (Co-Inventor)</span>
+                  <span class="inventor-chip">Arindam Anand</span>
+                </div>
+              </div>
+
+              <div class="patent-detail-block">
+                <h4 class="patent-block-title"><i class="fas fa-microchip"></i> Invention Summary &amp; Abstract</h4>
+                <p class="patent-abstract-text">
+                  A computer-implemented system for automated water tank level monitoring and pump control using
+                  Internet of Things technology. Real-time water level data is continuously acquired via contactless
+                  ultrasonic distance measurement and converted into percentage levels. An automated relay switching
+                  module controls pump activation when levels drop below low thresholds and deactivates before overflow,
+                  eliminating mechanical wear and extending equipment lifetime.
+                </p>
+              </div>
+
+              <div class="patent-innovation-badges">
+                <span class="innov-badge"><i class="fas fa-check-circle"></i> Contactless Ultrasonic Sensing</span>
+                <span class="innov-badge"><i class="fas fa-check-circle"></i> Zero Mechanical Wear</span>
+                <span class="innov-badge"><i class="fas fa-check-circle"></i> Automated Relay Switching</span>
+                <span class="innov-badge"><i class="fas fa-check-circle"></i> Low Pump Cycling</span>
+                <span class="innov-badge"><i class="fas fa-check-circle"></i> 49 Pages &bull; 10 Claims</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Achievements &amp; Certifications</h2>
+          <div class="title-underline"></div>
+          <p class="section-subheading">Patented inventions, hackathons, and verified professional certifications</p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Stat 1: Hackathons -->
+          <div class="stat-card">
+            <div class="stat-icon-wrapper"><i class="fas fa-award"></i></div>
+            <div class="stat-number" data-count="10">0</div>
+            <div class="stat-label">Hackathons</div>
+            <p class="stat-desc">Active hackathon participant &amp; team innovator</p>
+          </div>
+
+          <!-- Stat 2: Certifications -->
+          <div class="stat-card">
+            <div class="stat-icon-wrapper"><i class="fas fa-file-alt"></i></div>
+            <div class="stat-number" data-count="5">0</div>
+            <div class="stat-label">Certifications</div>
+            <p class="stat-desc">Red Hat &amp; Infosys Springboard certifications</p>
+          </div>
+
+          <!-- Stat 3: Patents & Projects -->
+          <div class="stat-card">
+            <div class="stat-icon-wrapper"><i class="fas fa-star"></i></div>
+            <div class="stat-number" data-count="1">0</div>
+            <div class="stat-label">IoT Patent</div>
+            <p class="stat-desc">Patented Water Tank Automation System</p>
+          </div>
+
+          <!-- Stat 4: Contributions -->
+          <div class="stat-card">
+            <div class="stat-icon-wrapper"><i class="fas fa-check-circle"></i></div>
+            <div class="stat-number" data-count="5">0</div>
+            <div class="stat-label">Core Projects</div>
+            <p class="stat-desc">AI models, GNNs &amp; full stack applications</p>
+          </div>
+        </div>
+
+        <!-- Certifications Showcase Grid -->
+        <div class="certifications-showcase">
+          <h3 class="cert-showcase-title">Verified Professional Certifications</h3>
+          <p class="section-subheading text-center" style="margin-bottom: 30px; font-size: 0.95rem;">
+            Click <strong>"View Certificate"</strong> to preview credentials or open the official verified PDF
+          </p>
+
+          <div class="cert-grid">
+            <!-- Cert 1: Python Programming with Red Hat -->
+            <div class="cert-card-enhanced">
+              <div class="cert-thumbnail-wrapper" data-cert="python_ad141">
+                <img src="/certificates/python_redhat_ad141.png" alt="Python Programming with Red Hat (AD141 - RHA)"
+                  class="cert-thumbnail-img" />
+                <div class="cert-thumbnail-overlay">
+                  <span class="cert-overlay-btn"><i class="fas fa-search-plus"></i> View Preview</span>
+                </div>
+              </div>
+              <div class="cert-enhanced-content">
+                <div class="cert-issuer-badge redhat-badge">
+                  <i class="fab fa-redhat"></i> Red Hat Academy
+                </div>
+                <h4 class="cert-enhanced-title">Python Programming with Red Hat (AD141 - RHA)</h4>
+                <p class="cert-enhanced-meta">
+                  <span><i class="far fa-calendar-alt"></i> March 2025</span> &bull;
+                  <span><i class="far fa-clock"></i> 32 Credit Hours</span>
+                </p>
+                <div class="cert-card-actions">
+                  <button class="btn btn-cert-view" data-cert="python_ad141">
+                    <i class="fas fa-eye"></i> View
+                  </button>
+                  <a href="/certificates/python_redhat_ad141.pdf" target="_blank" rel="noopener"
+                    class="btn btn-cert-pdf" title="Open Original PDF">
+                    <i class="fas fa-file-pdf"></i> PDF
+                  </a>
+                  <a href="https://www.credly.com/badges/2aea8a5e-a85b-4f42-871f-d2fdc9ada7cb" target="_blank"
+                    rel="noopener" class="btn btn-cert-verify" title="Verify on Credly">
+                    <i class="fas fa-check-circle"></i> Verify
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 2: Data Structures & Algorithms (Infosys Springboard) -->
+            <div class="cert-card-enhanced">
+              <div class="cert-thumbnail-wrapper" data-cert="dsa_python">
+                <img src="/certificates/dsa_python_infosys.png" alt="Data Structures and Algorithms using Python"
+                  class="cert-thumbnail-img" />
+                <div class="cert-thumbnail-overlay">
+                  <span class="cert-overlay-btn"><i class="fas fa-search-plus"></i> View Preview</span>
+                </div>
+              </div>
+              <div class="cert-enhanced-content">
+                <div class="cert-issuer-badge infosys-badge">
+                  <i class="fas fa-building"></i> Infosys Springboard
+                </div>
+                <h4 class="cert-enhanced-title">Data Structures and Algorithms using Python - Part 1</h4>
+                <p class="cert-enhanced-meta">
+                  <span><i class="far fa-calendar-alt"></i> October 2025</span> &bull;
+                  <span><i class="fas fa-code"></i> Python Core</span>
+                </p>
+                <div class="cert-card-actions">
+                  <button class="btn btn-cert-view" data-cert="dsa_python">
+                    <i class="fas fa-eye"></i> View
+                  </button>
+                  <a href="/certificates/dsa_python_infosys.pdf" target="_blank" rel="noopener" class="btn btn-cert-pdf"
+                    title="Open Original PDF">
+                    <i class="fas fa-file-pdf"></i> PDF
+                  </a>
+                  <a href="https://verify.onwingspan.com" target="_blank" rel="noopener" class="btn btn-cert-verify"
+                    title="Verify on Wingspan">
+                    <i class="fas fa-check-circle"></i> Verify
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 3: Network Automation with Red Hat Ansible -->
+            <div class="cert-card-enhanced">
+              <div class="cert-thumbnail-wrapper" data-cert="ansible_do457">
+                <img src="/certificates/network_automation_ansible_do457.png"
+                  alt="Network Automation with Red Hat Ansible (DO457 - RHA)" class="cert-thumbnail-img" />
+                <div class="cert-thumbnail-overlay">
+                  <span class="cert-overlay-btn"><i class="fas fa-search-plus"></i> View Preview</span>
+                </div>
+              </div>
+              <div class="cert-enhanced-content">
+                <div class="cert-issuer-badge redhat-badge">
+                  <i class="fab fa-redhat"></i> Red Hat Academy
+                </div>
+                <h4 class="cert-enhanced-title">Network Automation with Red Hat Ansible (DO457 - RHA)</h4>
+                <p class="cert-enhanced-meta">
+                  <span><i class="far fa-calendar-alt"></i> July 2026</span> &bull;
+                  <span><i class="far fa-clock"></i> 32 Credit Hours</span>
+                </p>
+                <div class="cert-card-actions">
+                  <button class="btn btn-cert-view" data-cert="ansible_do457">
+                    <i class="fas fa-eye"></i> View
+                  </button>
+                  <a href="/certificates/network_automation_ansible_do457.pdf" target="_blank" rel="noopener"
+                    class="btn btn-cert-pdf" title="Open Original PDF">
+                    <i class="fas fa-file-pdf"></i> PDF
+                  </a>
+                  <a href="https://www.credly.com/badges/b15b407c-db6f-4914-b9d8-5ea08b708ad4" target="_blank"
+                    rel="noopener" class="btn btn-cert-verify" title="Verify on Credly">
+                    <i class="fas fa-check-circle"></i> Verify
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 4: Red Hat System Administration I (RH124) -->
+            <div class="cert-card-enhanced">
+              <div class="cert-thumbnail-wrapper" data-cert="rh124">
+                <img src="/certificates/redhat_system_administration_rh124.png"
+                  alt="Red Hat System Administration I (RH124 - RHA)" class="cert-thumbnail-img" />
+                <div class="cert-thumbnail-overlay">
+                  <span class="cert-overlay-btn"><i class="fas fa-search-plus"></i> View Preview</span>
+                </div>
+              </div>
+              <div class="cert-enhanced-content">
+                <div class="cert-issuer-badge redhat-badge">
+                  <i class="fab fa-redhat"></i> Red Hat Academy
+                </div>
+                <h4 class="cert-enhanced-title">Red Hat System Administration I (RH124 - RHA)</h4>
+                <p class="cert-enhanced-meta">
+                  <span><i class="far fa-calendar-alt"></i> February 2026</span> &bull;
+                  <span><i class="far fa-clock"></i> 40 Credit Hours</span>
+                </p>
+                <div class="cert-card-actions">
+                  <button class="btn btn-cert-view" data-cert="rh124">
+                    <i class="fas fa-eye"></i> View
+                  </button>
+                  <a href="/certificates/redhat_system_administration_rh124.pdf" target="_blank" rel="noopener"
+                    class="btn btn-cert-pdf" title="Open Original PDF">
+                    <i class="fas fa-file-pdf"></i> PDF
+                  </a>
+                  <a href="https://www.credly.com/badges/8f7ab962-2527-4c0c-be13-011ae59107e6" target="_blank"
+                    rel="noopener" class="btn btn-cert-verify" title="Verify on Credly">
+                    <i class="fas fa-check-circle"></i> Verify
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cert 5: Mastering Agentic AI (Udemy) -->
+            <div class="cert-card-enhanced">
+              <div class="cert-thumbnail-wrapper" data-cert="agentic_ai">
+                <img src="/certificates/mastering_agentic_ai_udemy.png"
+                  alt="Mastering Agentic AI: From Prompt to Protocols to Production" class="cert-thumbnail-img" />
+                <div class="cert-thumbnail-overlay">
+                  <span class="cert-overlay-btn"><i class="fas fa-search-plus"></i> View Preview</span>
+                </div>
+              </div>
+              <div class="cert-enhanced-content">
+                <div class="cert-issuer-badge udemy-badge">
+                  <i class="fas fa-graduation-cap"></i> Udemy &bull; Vinit Singh
+                </div>
+                <h4 class="cert-enhanced-title">Mastering Agentic AI: From Prompt to Protocols</h4>
+                <p class="cert-enhanced-meta">
+                  <span><i class="far fa-calendar-alt"></i> July 2026</span> &bull;
+                  <span><i class="far fa-clock"></i> 38 Total Hours</span>
+                </p>
+                <div class="cert-card-actions">
+                  <button class="btn btn-cert-view" data-cert="agentic_ai">
+                    <i class="fas fa-eye"></i> View
+                  </button>
+                  <a href="/certificates/mastering_agentic_ai_udemy.pdf" target="_blank" rel="noopener"
+                    class="btn btn-cert-pdf" title="Open Original PDF">
+                    <i class="fas fa-file-pdf"></i> PDF
+                  </a>
+                  <a href="https://ude.my/UC-8f3be2fb-6f92-426c-99c6-9c02dab8ef3c" target="_blank" rel="noopener"
+                    class="btn btn-cert-verify" title="Verify on Udemy">
+                    <i class="fas fa-check-circle"></i> Verify
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Education</h2>
+          <div class="title-underline"></div>
+          <p class="section-subheading">Academic background &amp; engineering performance</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Bachelor of Technology (B.Tech CSE)</h3>
+                <span class="timeline-date"><i class="far fa-calendar-alt"></i> 2024 - 2028</span>
+              </div>
+              <div class="timeline-institution">
+                <i class="fas fa-university"></i> Symbiosis Institute of Technology College, Nagpur
+              </div>
+              <p class="timeline-text">
+                Specializing in Artificial Intelligence and Machine Learning. Coursework includes Data Structures &amp;
+                Algorithms, Operating Systems, Database Management Systems (MySQL), and Web Development.
+              </p>
+              <div class="timeline-highlights">
+                <span class="highlight-chip">CGPA: 8.19 / 10.0</span>
+                <span class="highlight-chip">GPA: 8.50 / 10.0</span>
+                <span class="highlight-chip">Specialization: AI &amp; ML</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fas fa-school"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">12th Grade (Junior College)</h3>
+                <span class="timeline-date"><i class="far fa-calendar-alt"></i> 2024</span>
+              </div>
+              <div class="timeline-institution">
+                <i class="fas fa-building-columns"></i> Nandanvan Art's Commerce &amp; Science Junior College
+              </div>
+              <p class="timeline-text">
+                Completed Higher Secondary Certificate in Science stream.
+              </p>
+              <div class="timeline-highlights">
+                <span class="highlight-chip">Percentage: 70%</span>
+                <span class="highlight-chip">Science Stream</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fas fa-book"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-title">10th Grade (Secondary School)</h3>
+                <span class="timeline-date"><i class="far fa-calendar-alt"></i> 2022</span>
+              </div>
+              <div class="timeline-institution">
+                <i class="fas fa-school-flag"></i> The Swaminarayan School
+              </div>
+              <p class="timeline-text">
+                Completed Secondary School Certificate with distinction.
+              </p>
+              <div class="timeline-highlights">
+                <span class="highlight-chip">Percentage: 93%</span>
+                <span class="highlight-chip">Academic Excellence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOBBIES & INTERESTS SECTION -->
+    <section class="section hobbies-section" id="hobbies">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Hobbies &amp; Interests</h2>
+          <div class="title-underline"></div>
+          <p class="section-subheading">Beyond code &mdash; the passions that inspire creativity</p>
+        </div>
+
+        <div class="hobbies-grid">
+
+          <!-- Bharatnatyam -->
+          <div class="hobby-card">
+            <div class="hobby-icon-wrap hobby-dance">
+              <i class="fas fa-music"></i>
+            </div>
+            <div class="hobby-content">
+              <h3 class="hobby-title">Bharatnatyam Dancer</h3>
+              <p class="hobby-desc">
+                A trained classical Indian dancer bringing discipline, expression, and rhythm to life through one of
+                India's oldest dance forms. Performances blend devotion, storytelling, and precise footwork.
+              </p>
+              <div class="hobby-tags">
+                <span class="hobby-tag">Classical Dance</span>
+                <span class="hobby-tag">Stage Performances</span>
+                <span class="hobby-tag">Rhythm &amp; Expression</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Drawing & Painting -->
+          <div class="hobby-card">
+            <div class="hobby-icon-wrap hobby-art">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="hobby-content">
+              <h3 class="hobby-title">Drawing &amp; Painting Artist</h3>
+              <p class="hobby-desc">
+                An enthusiastic visual artist who creates detailed sketches and vibrant paintings &mdash; from realistic
+                portraits to abstract compositions. Art is a medium for imagination, patience, and precision.
+              </p>
+              <div class="hobby-tags">
+                <span class="hobby-tag">Sketching</span>
+                <span class="hobby-tag">Acrylic &amp; Watercolour</span>
+                <span class="hobby-tag">Portrait Art</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sports -->
+          <div class="hobby-card">
+            <div class="hobby-icon-wrap hobby-sports">
+              <i class="fas fa-running"></i>
+            </div>
+            <div class="hobby-content">
+              <h3 class="hobby-title">Active Sports Involvement</h3>
+              <p class="hobby-desc">
+                An active sports enthusiast who believes physical fitness fuels mental sharpness. Participates in team
+                sports, athletics, and competitive events &mdash; channelling the same dedication from coding into the
+                field.
+              </p>
+              <div class="hobby-tags">
+                <span class="hobby-tag">Team Sports</span>
+                <span class="hobby-tag">Athletics</span>
+                <span class="hobby-tag">Fitness &amp; Endurance</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center text-white">
+          <h2 class="section-title text-white">Let's Connect</h2>
+          <div class="title-underline light"></div>
+          <p class="section-subheading text-white-80">
+            I'd love to hear from you. Feel free to reach out for software development roles, internships, or
+            collaborations!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Cards -->
+          <div class="contact-buttons-col">
+            <a href="mailto:1851.janhavi@gmail.com" class="contact-card-btn">
+              <div class="contact-btn-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-btn-text">
+                <span class="contact-btn-label">Email</span>
+                <span class="contact-btn-value">1851.janhavi@gmail.com</span>
+              </div>
+              <i class="fas fa-external-link-alt arrow-icon"></i>
+            </a>
+
+            <a href="https://github.com/Janhaviadmane07" target="_blank" rel="noopener" class="contact-card-btn">
+              <div class="contact-btn-icon"><i class="fab fa-github"></i></div>
+              <div class="contact-btn-text">
+                <span class="contact-btn-label">GitHub</span>
+                <span class="contact-btn-value">github.com/Janhaviadmane07</span>
+              </div>
+              <i class="fas fa-external-link-alt arrow-icon"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/janhavi-admane-85897a320" target="_blank" rel="noopener"
+              class="contact-card-btn">
+              <div class="contact-btn-icon"><i class="fab fa-linkedin"></i></div>
+              <div class="contact-btn-text">
+                <span class="contact-btn-label">LinkedIn</span>
+                <span class="contact-btn-value">linkedin.com/in/janhavi-admane</span>
+              </div>
+              <i class="fas fa-external-link-alt arrow-icon"></i>
+            </a>
+
+            <a href="tel:+919529645750" class="contact-card-btn">
+              <div class="contact-btn-icon"><i class="fas fa-phone-alt"></i></div>
+              <div class="contact-btn-text">
+                <span class="contact-btn-label">Phone</span>
+                <span class="contact-btn-value">+91 95296 45750</span>
+              </div>
+              <i class="fas fa-phone arrow-icon"></i>
+            </a>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Send Me a Message</h3>
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="contactName"><i class="fas fa-user"></i> Full Name</label>
+                <input type="text" id="contactName" class="form-input" placeholder="e.g. Alex Johnson" required />
+                <span class="error-msg" id="nameError">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail"><i class="fas fa-envelope"></i> Email Address</label>
+                <input type="email" id="contactEmail" class="form-input" placeholder="e.g. alex@example.com" required />
+                <span class="error-msg" id="emailError">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject"><i class="fas fa-heading"></i> Subject</label>
+                <input type="text" id="contactSubject" class="form-input"
+                  placeholder="Software Engineering / Internship Inquiry" required />
+                <span class="error-msg" id="subjectError">Please enter a subject</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage"><i class="fas fa-comment-dots"></i> Message</label>
+                <textarea id="contactMessage" class="form-input" rows="4"
+                  placeholder="Hello Janhavi, I would like to connect..." required></textarea>
+                <span class="error-msg" id="messageError">Please enter your message</span>
+              </div>
+
+              <button type="submit" class="btn btn-submit" id="submitFormBtn">
+                <span class="btn-text">Send Message</span>
+                <i class="fas fa-paper-plane btn-icon"></i>
+                <div class="btn-spinner hidden"><i class="fas fa-circle-notch fa-spin"></i></div>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="footer-logo">
+          <div class="logo-icon"><i class="fas fa-code"></i></div>
+          <span>My<span class="logo-accent">Portfolio</span></span>
+        </a>
+        <p class="footer-tagline">Building clean, scalable, and intelligent software solutions.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/Janhaviadmane07" target="_blank" rel="noopener" aria-label="GitHub"><i
+            class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/janhavi-admane-85897a320" target="_blank" rel="noopener"
+          aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:1851.janhavi@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+919529645750" aria-label="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+
+      <div class="footer-bottom text-center">
+        <p>&copy; 2025 Janhavi Admane. All rights reserved. | Crafted with &hearts;</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Scroll To Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Scroll to top" title="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+
+  <!-- Project Interactive Live Demo Modal -->
+  <div class="modal-backdrop hidden" id="projectModal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Dynamic Content Loaded by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Certificate Image Lightbox Viewer -->
+  <div class="cert-lightbox" id="certLightbox" role="dialog" aria-modal="true">
+    <div class="cert-lightbox-inner">
+      <div class="cert-lightbox-header">
+        <h3 class="cert-lightbox-title" id="certLightboxTitle">Certificate Preview</h3>
+        <button class="cert-lightbox-close" id="certLightboxClose" aria-label="Close certificate preview">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="cert-lightbox-body">
+        <img src="" alt="Certificate Preview" class="cert-lightbox-img" id="certLightboxImg" />
+      </div>
+      <div class="cert-lightbox-footer">
+        <a href="#" target="_blank" rel="noopener" class="btn btn-cert-pdf" id="certLightboxPdfBtn">
+          <i class="fas fa-file-pdf"></i> Open PDF
+        </a>
+        <button class="btn btn-secondary-outline" id="certLightboxDismiss">
+          <i class="fas fa-times"></i> Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
